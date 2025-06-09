@@ -76,7 +76,7 @@ def chat_fn(user_message, history):
         reply = f"❌ Error: {str(e)}"
     return reply
 
-with gr.Blocks(theme=gr.themes.Soft(), title="Indian Tax AI Assistant") as demo:
+with gr.Blocks(theme=gr.themes.Soft(), title="Indian AI Tax Assistant") as demo:
     with gr.Row():
         with gr.Column(scale=3):
             gr.Markdown("""
